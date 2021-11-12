@@ -16,6 +16,6 @@ CREATE TABLE `sap-general-ledger-account-chart-of-accounts-data`
     `AccountIsBlockedForCreation` varchar(1) DEFAULT NULL,
     `AccountIsBlockedForPosting` varchar(1) DEFAULT NULL,
     `AccountIsBlockedForPlanning` varchar(1) DEFAULT NULL,
-    PRIMARY KEY (`ChartOfAccounts`, `GLAccount`),
+    PRIMARY KEY (`ChartOfAccounts`, `GLAccount`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
