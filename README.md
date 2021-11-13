@@ -13,8 +13,8 @@ https://api.sap.com/api/OP_API_GLACCOUNTINCHARTOFACCOUNTS_SRV/overview
 
 sap-general-ledger-account-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
-* sap-general-ledger-account-sql-chart-of-accounts-data.sql  
-* sap-general-ledger-account-sql-language-data.sql
+* sap-general-ledger-account-sql-chart-of-accounts-data.sql（SAP 総勘定元帳勘定 - 勘定コード表データ）  
+* sap-general-ledger-account-sql-language-data.sql（SAP 総勘定元帳勘定 - 言語データ）
 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
