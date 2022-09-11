@@ -1,6 +1,6 @@
 # sap-general-ledger-account-sql  
 
-sap-general-ledger-account-sql は、主にエッジアプリケーションにおいて、SAPと連携されたGL勘定科目データを保存するSQLテーブルを作成するためのレポジトリです。    
+sap-general-ledger-account-sql は、主にエッジアプリケーションにおいて、SAPと連携された総勘定元帳勘定データを保存するSQLテーブルを作成するためのレポジトリです。    
 sap-general-ledger-account-sql は、そのままクラウド環境におけるアプリケーションにも、適用可能です。  
 
 ## 前提条件  
@@ -14,7 +14,7 @@ https://api.sap.com/api/OP_API_GLACCOUNTINCHARTOFACCOUNTS_SRV/overview
 sap-general-ledger-account-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
 * sap-general-ledger-account-sql-chart-of-accounts-data.sql（SAP 総勘定元帳勘定 - 勘定コード表データ）  
-* sap-general-ledger-account-sql-language-data.sql（SAP 総勘定元帳勘定 - 言語データ）
+* sap-general-ledger-account-sql-text-data.sql（SAP 総勘定元帳勘定 - テキストデータ）
 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
